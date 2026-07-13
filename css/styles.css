@@ -2053,6 +2053,7 @@ width:80%;
 .copyright{
 	text-align:center;
 }
+	
 }
 @media (max-width: 991.98px) and (min-width:767px) {
   .table-responsive-lg {
@@ -3953,6 +3954,7 @@ textarea.form-control-lg {
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
+	background-color:#FFFFF;
 }
 
 .navbar-toggler {
