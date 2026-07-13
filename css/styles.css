@@ -2030,8 +2030,8 @@ progress {
 .banner-text p{
     font-size:0.8rem!important;
 }
-.log{
-	width:50%;
+.logo{
+	width:50%!important;
 }
 .navbar-nav{
 text-align: right!important;
