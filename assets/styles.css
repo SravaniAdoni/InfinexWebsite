@@ -2031,7 +2031,7 @@ progress {
     font-size:0.8rem!important;
 }
 .logo{
-	width:50%;
+	width:50%!important;
 }
 .navbar-nav{
 text-align: right!important;
