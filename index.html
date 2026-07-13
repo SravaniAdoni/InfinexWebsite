@@ -21,8 +21,9 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#about">About</a></li>
+                        
                         <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+						<li class="nav-item"><a class="nav-link active" aria-current="page" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -186,11 +187,60 @@ diverse environments and critical applications.</p>
 </form>
 		  
         <!-- Footer-->
-        <footer class="py-5 bg-black">
-            <div class="container"><p class="m-0 text-center text-white">
-			<p style="color:white; text-align:center">
+        <!--<footer class="py-5 bg-black">
+            
+			<p class="copyright" style="color:white;">
+			
     Copyright &copy; <span id="year"></span>, Infinex Polymers. All Rights Reserved
-</p>
+	<span class="contact">
+	<a href="https://www.linkedin.com/company/infinex-performance-polymers-pvt-ltd" target="_blank" class="text-white text-decoration-none">
+    <i class="bi bi-linkedin"></i> 
+</a>
+	<a href="mailto:sales@infinexpolymers.com" class="text-white text-decoration-none">
+    <i class="bi bi-envelope-fill"></i> sales@infinexpolymers.com
+</a>
+<i class="bi bi-phone-fill text-white"></i>12345678
+</span>
+	
+</p>-->
+<footer class="py-3" style="background:#014983;">
+    <div class="container">
+
+        <!-- Contact Row -->
+        <div class="d-flex justify-content-between align-items-center flex-wrap mb-2">
+
+            <!-- Left -->
+            <div>
+                <a href="mailto:sales@infinexpolymers.com" class="text-white text-decoration-none">
+                    <i class="bi bi-envelope-fill me-2"></i>sales@infinexpolymers.com
+                </a>
+            </div>
+
+            <!-- Center -->
+            <div>
+                <a href="tel:+911234567890" class="text-white text-decoration-none">
+                    <i class="bi bi-phone-fill me-2"></i>
+                </a>
+            </div>
+
+            <!-- Right -->
+            <div>
+                <a href="https://www.linkedin.com/company/infinex-performance-polymers-pvt-ltd"
+                   target="_blank"
+                   class="text-white text-decoration-none">
+                    <i class="bi bi-linkedin fs-5"></i>
+                </a>
+            </div>
+
+        </div>
+
+        <!-- Copyright Row -->
+        <div class="text-center text-white">
+            Copyright &copy; <span id="year"></span>, Infinex Polymers. All Rights Reserved.
+        </div>
+
+    </div>
+</footer>
 
 <script>
     document.getElementById("year").textContent = new Date().getFullYear();
